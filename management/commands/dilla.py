@@ -395,6 +395,12 @@ class Command(BaseCommand):
 		Generates a random integer
 		"""
 		return random.randint(1,255)
+
+	def generate_FloatField(self,**kwargs):
+		"""
+		Generates a random float
+		"""
+		return random.random()
 	
 	def generate_TimeField(self,**kwargs):
 		"""
