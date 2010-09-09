@@ -403,7 +403,7 @@ class Command(BaseCommand):
 		"""
 		Generates a random float
 		"""
-		return random.random()
+		return round(random.random(), 2)
 	
 	def generate_TimeField(self,**kwargs):
 		"""
